@@ -1,0 +1,1 @@
+<?php session_start(); if (!isset($_SESSION['uid'])) die("Please <a href='task6_login.php'>login</a>"); echo "Protected content. <a href='task6_logout.php'>Logout</a>"; ?>
